@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net" modified="2023-06-14T06:30:47.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nQr8gBb5qJ8puFCfcJdc" version="21.3.7" type="device">
+  <diagram name="第 1 页" id="SH092_TbU1scwdNGLHg3">
+    <mxGraphModel dx="1293" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="155" y="90" width="780" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="160" y="610" width="780" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="600" y="250" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.585;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OkKv-170zq14MJY-Nck8-2" target="OkKv-170zq14MJY-Nck8-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="370" />
+              <mxPoint x="710" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-2" value="test2&lt;br&gt;eth0 172.16.100.57" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OkKv-170zq14MJY-Nck8-3" target="OkKv-170zq14MJY-Nck8-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="OkKv-170zq14MJY-Nck8-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="275.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-3" value="test1&lt;br&gt;mynet 10.20.20.2&lt;br&gt;eth0 172.16.100.56" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="OkKv-170zq14MJY-Nck8-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="290.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-7" value="ip route add 172.16.100.0/24 via 10.20.20.2 dev mynet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="340" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-9" value="ip route add 10.20.20.0/24 via 172.16.100.56 dev eth0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="480" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="600" y="725" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.585;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OkKv-170zq14MJY-Nck8-22" target="OkKv-170zq14MJY-Nck8-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="722" y="830" />
+              <mxPoint x="722" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-22" value="test2 示例&lt;br&gt;eth0 172.16.100.57" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OkKv-170zq14MJY-Nck8-25" target="OkKv-170zq14MJY-Nck8-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="810" />
+              <mxPoint x="700" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="OkKv-170zq14MJY-Nck8-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-25" value="test1&lt;br&gt;ztuze4uu45&amp;nbsp; 172.26.0.11&lt;br&gt;eth0 172.16.100.56" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="735" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="OkKv-170zq14MJY-Nck8-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="765" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-28" value="ip route add 172.16.100.0/24 via 172.26.0.11 dev &amp;nbsp;ztuze4uu45" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="817.5" width="380" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-30" value="ip route add 172.26.0.0/16 via 172.16.100.56 dev eth0&amp;nbsp; &lt;br&gt;（所有的想连接的客户端主机都需要添加，给zerotier网络穿透用）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="960" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkKv-170zq14MJY-Nck8-31" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;tinc&lt;br&gt;(单点可用）&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-2" value="ip route add 10.88.0.0/16 via 172.26.0.10 dev ztuze4uu45&amp;nbsp; &amp;nbsp;&lt;br&gt;（给openvpn 回icmp用的）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="690" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;zerotier &lt;br&gt;(集群可用)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dTVvPH5LssV4feT2JBJ6-7" target="dTVvPH5LssV4feT2JBJ6-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="945" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-13" value="openvpn 客户端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1025" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-16" value="tencent&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;tun-wuchao 10.88.0.1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ztuze4uu45&amp;nbsp; 172.26.0.10" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="710" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-18" value="tencent&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;eth0 10.0.16.15&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;mynet 10.20.20.1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="235" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-19" value="ip route add 10.88.0.0/16 via 172.16.100.56 dev eth0&lt;br&gt;（openvpn要想连接的机器都需要添加）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="995" width="430" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
