@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T09:08:33.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZXttjNpnmHymh3vXWDeJ" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T09:09:11.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ulOR22KJmlSm4eQtEGnl" version="21.3.8" type="github">
   <diagram name="第 1 页" id="SH092_TbU1scwdNGLHg3">
     <mxGraphModel dx="1591" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
         <mxCell id="dTVvPH5LssV4feT2JBJ6-16" value="tencent&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;tun-wuchao 10.88.0.1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ztuze4uu45&amp;nbsp; 172.26.0.10" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="710" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="dTVvPH5LssV4feT2JBJ6-18" value="tencent&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;eth0 10.0.16.15&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;mynet 10.20.20.1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="dTVvPH5LssV4feT2JBJ6-18" value="tencent&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;tun-wuchao 10.88.0.1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;mynet 10.20.20.1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="265" y="195" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dTVvPH5LssV4feT2JBJ6-19" value="ip route add 10.88.0.0/16 via 172.16.100.56 dev eth0&lt;br&gt;（openvpn要想连接的机器都需要添加）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
